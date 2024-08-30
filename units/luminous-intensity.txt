@@ -1,0 +1,17 @@
+| Luminous - Intensity | Symbol | Value |
+| --- | --- | --- |
+| _default |     | 'candela [cd]' |
+| candela | cd | 1 |
+| candlepower | cp | 1 / 0.981 |
+| Carcel |     | 1 / 9.74 |
+| Hefnerkerze |     | 1 / 0.920 |
+| Violle |     | 1 / 20.17 |
+
+---
+current:
+  unit: Luminous - Intensity
+  file: <./luminous-intensity.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+...

@@ -1,0 +1,15 @@
+| Magnetism | Symbol | Value |
+| --- | --- | --- |
+| _default |     | 'tesla [T]' |
+| gamma | γ | 1000000000 |
+| gauss | G | 10000 |
+| tesla | T | 1 |
+
+---
+current:
+  unit: Magnetism
+  file: <./magnetism.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+...

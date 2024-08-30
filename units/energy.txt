@@ -1,0 +1,26 @@
+| Energy | Symbol | Value |
+| --- | --- | --- |
+| _default |     | 'joule [J]' |
+| electron volt | eV | 6241509343300000000 |
+| erg |     | 10000000 |
+| foe |     | 1 / 1e44 |
+| foot-pound | ft·lb | 1 / 1.3558179483314 |
+| gallon gasoline equivalent |     | 1 / 121320000 |
+| international steam table calorie | calᵢₜ | 1 / 4.1868 |
+| joule | J | 1 |
+| mean BTU | Btuₘₑₐₙ | 1 / 1055.87 |
+| mean calorie | calₘₑₐₙ | 1 / 4.19002 |
+| quad |     | 1 / 1.055e18 |
+| thermochemical BTU | Btuₜₕ | 1 / 1054.35026444 |
+| thermochemical calorie | calₜₕ | 1 / 4.184 |
+| ton of TNT |     | 1 / 4184000000 |
+| watt-hour | W·h | 1 / 3600 |
+
+---
+current:
+  unit: Energy
+  file: <./energy.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+...

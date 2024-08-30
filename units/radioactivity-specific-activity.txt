@@ -1,0 +1,15 @@
+| Radioactivity - Specific Activity | Symbol | Value |
+| --- | --- | --- |
+| _default |     | 'becquerel [Bq]' |
+| becquerel | Bq | 1 |
+| curie | Ci | 1 / 3.7e10 |
+| rutherford | Rd | 1e-6 |
+
+---
+current:
+  unit: Radioactivity - Specific Activity
+  file: <./radioactivity-specific-activity.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+...

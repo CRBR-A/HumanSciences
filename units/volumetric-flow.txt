@@ -1,0 +1,16 @@
+| Volumetric Flow | Symbol | Value |
+| --- | --- | --- |
+| _default |     | 'cubic metre per second [m³/s]' |
+| cubic foot per second | ft³/s | 1 / 0.028316846592 |
+| cubic metre per second | m³/s | 1 |
+| gallon per second | gal/s | 0.0037854118 |
+| sverdrup | Sv | 0.000001 |
+
+---
+current:
+  unit: Volumetric Flow
+  file: <./volumetric-flow.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+...

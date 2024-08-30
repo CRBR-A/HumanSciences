@@ -1,0 +1,15 @@
+| Radioactivity - Dose Equivalent | Symbol | Value |
+| --- | --- | --- |
+| _default |     | 'sievert [Sv]' |
+| banana equivalent dose | BED | 10000000 |
+| sievert | Sv | 1 |
+| röntgen equivalent man | rem | 100 |
+
+---
+current:
+  unit: Radioactivity - Dose Equivalent
+  file: <./radioactivity-dose-equivalent.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+...

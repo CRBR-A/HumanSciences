@@ -1,0 +1,13 @@
+| Temperature | Symbol | Value |
+| --- | --- | --- |
+| _default |     | 'Celsius [°C]' |
+
+
+---
+current:
+  unit: Temperature
+  file: <./temperature.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+...

@@ -1,0 +1,25 @@
+| Angle | Symbol | Value |
+| --- | --- | --- |
+| _default |     | 'radian [rad]' |
+| arcminute | ′ | 180 / Pi * 60 |
+| arcsecond | ″ | 180 / Pi * 3600 |
+| degree | ° | 180 / Pi |
+| Furman |     | (180 / Pi / 360) * 65536 |
+| gradian | gon | 180 / Pi / 360 * 400 |
+| hexacontade |     | 180 / Pi / 6 |
+| mil |     | 1000 |
+| octant |     | 180 / Pi / 45 |
+| quadrant |     | 180 / Pi / 90 |
+| radian | rad | 1 |
+| sextant |     | 180 / Pi / 60 |
+| sign |     | 180 / Pi / 30 |
+| turn |     | 180 / Pi / 360 |
+
+---
+current:
+  unit: Angle
+  file: <./angle.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+...

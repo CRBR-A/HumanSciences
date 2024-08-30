@@ -1,0 +1,15 @@
+| Level | Symbol | Value |
+| --- | --- | --- |
+| _default |     | 'decibel [dB]' |
+| bel | B | 0.1 |
+| decibel | dB | 1 |
+| neper | Np | 1 / 8.68589 |
+
+---
+current:
+  unit: Level
+  file: <./level.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+...

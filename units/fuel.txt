@@ -1,0 +1,16 @@
+| Fuel | Symbol | Value |
+| --- | --- | --- |
+| _default |     | 'metres per litre [m/l]' |
+| litres per 100 kilometres | l/100km | 100000 |
+| metres per litre | m/l | 1 |
+| miles per imperial gallon | MPG | 0.00282481 |
+| miles per US gallon | MPG | 0.00235215 |
+
+---
+current:
+  unit: Fuel
+  file: <./fuel.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+...
