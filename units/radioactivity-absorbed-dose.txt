@@ -1,15 +1,14 @@
 | Radioactivity - Absorbed Dose | Symbol | Value |
-| --- | --- | --- |
-| _default |     | 'gray [Gy]' |
-| gray | Gy | 1 |
-| joules per kilogram | J/kg | 0.01 |
-| rad |     | 100 |
+| ----------------------------- | ------ | ----- |
+| gray                          | Gy     | 1     |
+| joules per kilogram           | J/kg   | 0.01  |
+| rad                           |        | 100   |
 
----
+``` yaml
 current:
   unit: Radioactivity - Absorbed Dose
   file: <./radioactivity-absorbed-dose.txt>
     author: Iterami
     source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
     license: CC0-1.0
-...
+```

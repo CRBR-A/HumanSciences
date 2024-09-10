@@ -1,15 +1,14 @@
-| Torque | Symbol | Value |
-| --- | --- | --- |
-| _default |     | 'newton metre [N·m]' |
-| gram metre | g·m | 1 / 9806.65 |
-| newton metre | N·m | 1 |
-| pound-foot | lb·ft | 1 / 1.355818 |
+| Torque       | Symbol | Value        |
+| ------------ | ------ | ------------ |
+| gram metre   | g·m    | 1 / 9806.65  |
+| newton metre | N·m    | 1            |
+| pound-foot   | lb·ft  | 1 / 1.355818 |
 
----
+``` yaml
 current:
   unit: Torque
   file: <./torque.txt>
     author: Iterami
     source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
     license: CC0-1.0
-...
+```

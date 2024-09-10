@@ -1,15 +1,14 @@
-| Mass Flow | Symbol | Value |
-| --- | --- | --- |
-| _default |     | 'gram per second [g/s]' |
-| gram per second | g/s | 1 |
-| pound per second | lb/s | 0.00045359237 |
-| slug per second |     | 0.014593903 |
+| Mass Flow        | Symbol | Value         |
+| ---------------- | ------ | ------------- |
+| gram per second  | g/s    | 1             |
+| pound per second | lb/s   | 0.00045359237 |
+| slug per second  |        | 0.014593903   |
 
----
+``` yaml
 current:
   unit: Mass Flow
   file: <./mass-flow.txt>
     author: Iterami
     source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
     license: CC0-1.0
-...
+```

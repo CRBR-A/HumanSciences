@@ -1,19 +1,18 @@
-| Density | Symbol | Value |
-| --- | --- | --- |
-| _default |     | 'grams per cubic metre [g/m³]' |
-| grams per cubic metre | g/m³ | 1 |
-| grams per litre | g/l | 1000 |
-| metric tons per cubic metre | t/m³ | 1000000 |
-| pounds per cubic inch | lb/in³ | 1 / 27679900 |
-| pounds per cubic foot | lb/ft³ | 1 / 16018.46 |
-| slugs per cubic foot |     | 1 / 515378.8184 |
-| slugs per cubic yard |     | 1 / 19088.1044 |
+| Density                     | Symbol | Value           |
+| --------------------------- | ------ | --------------- |
+| grams per cubic metre       | g/m³   | 1               |
+| grams per litre             | g/l    | 1000            |
+| metric tons per cubic metre | t/m³   | 1000000         |
+| pounds per cubic inch       | lb/in³ | 1 / 27679900    |
+| pounds per cubic foot       | lb/ft³ | 1 / 16018.46    |
+| slugs per cubic foot        |        | 1 / 515378.8184 |
+| slugs per cubic yard        |        | 1 / 19088.1044  |
 
----
+``` yaml
 current:
   unit: Density
   file: <./density.txt>
     author: Iterami
     source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
     license: CC0-1.0
-...
+```

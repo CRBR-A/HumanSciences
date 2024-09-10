@@ -1,20 +1,19 @@
-| Pressure | Symbol | Value |
-| --- | --- | --- |
-| _default |     | 'pascal [Pa]' |
-| bar |     | 0.00001 |
-| pascal | Pa | 1 |
-| pièze | pz | 0.001 |
-| pound-force per square inch absolute | psia | 0.000145038 |
-| standard atmosphere | atm | 1 / 101325 |
-| technical atmosphere | at | 1 / 98066.5 |
-| torr | Torr | 760 / 101325 |
-| Vickers pyramid number | HV | 1 / 9807000 |
+| Pressure                             | Symbol | Value        |
+| ------------------------------------ | ------ | ------------ |
+| bar                                  |        | 0.00001      |
+| pascal                               | Pa     | 1            |
+| pièze                                | pz     | 0.001        |
+| pound-force per square inch absolute | psia   | 0.000145038  |
+| standard atmosphere                  | atm    | 1 / 101325   |
+| technical atmosphere                 | at     | 1 / 98066.5  |
+| torr                                 | Torr   | 760 / 101325 |
+| Vickers pyramid number               | HV     | 1 / 9807000  |
 
----
+``` yaml
 current:
   unit: Pressure
   file: <./pressure.txt>
     author: Iterami
     source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
     license: CC0-1.0
-...
+```

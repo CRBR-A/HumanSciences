@@ -1,15 +1,14 @@
-| Solid Angle | Symbol | Value |
-| --- | --- | --- |
-| _default |     | 'steradian [sr]' |
-| spat | sp | 1 / (Pi * 4) |
-| square degree | deg² | Math.pow(180 / Pi, 2) |
-| steradian | sr | 1 |
+| Solid Angle   | Symbol | Value                 |
+| ------------- | ------ | --------------------- |
+| spat          | sp     | 1 / (Pi \* 4)         |
+| square degree | deg²   | Math.pow(180 / Pi, 2) |
+| steradian     | sr     | 1                     |
 
----
+``` yaml
 current:
   unit:  Solid Angle
   file: <./solid-angle.txt>
     author: Iterami
     source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
     license: CC0-1.0
-...
+```

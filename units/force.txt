@@ -1,24 +1,23 @@
-| Force | Symbol | Value |
-| --- | --- | --- |
-| _default |     | 'newton [N]' |
-| dyne | dyn | 100000 |
-| gram-force | gf | 1 / 0.00980665 |
-| kip |     | 1 / 4448.2216 |
-| long ton-force |     | 0.224809 / 2240 |
-| newton | N | 1 |
-| ounce-force | ozf | 3.59694310194 |
-| pond |     | 1 / 0.009806649999788 |
-| pound-force | lbf | 0.224809 |
-| poundal | pdl | 7.23301 |
-| short ton-force |     | 0.224809 / 2000 |
-| sthène | sn | 0.001 |
-| tonne-force | tf | 1 / 9806.65 |
+| Force           | Symbol | Value                 |
+| --------------- | ------ | --------------------- |
+| dyne            | dyn    | 100000                |
+| gram-force      | gf     | 1 / 0.00980665        |
+| kip             |        | 1 / 4448.2216         |
+| long ton-force  |        | 0.224809 / 2240       |
+| newton          | N      | 1                     |
+| ounce-force     | ozf    | 3.59694310194         |
+| pond            |        | 1 / 0.009806649999788 |
+| pound-force     | lbf    | 0.224809              |
+| poundal         | pdl    | 7.23301               |
+| short ton-force |        | 0.224809 / 2000       |
+| sthène          | sn     | 0.001                 |
+| tonne-force     | tf     | 1 / 9806.65           |
 
----
+``` yaml
 current:
   unit: Force
   file: <./force.txt>
     author: Iterami
     source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
     license: CC0-1.0
-...
+```

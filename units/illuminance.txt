@@ -1,16 +1,15 @@
-| Illuminance | Symbol | Value |
-| --- | --- | --- |
-| _default |     | 'lux [lx]' |
-| foot-candle | fc | 0.09290304 |
-| lux | lx | 1 |
-| phot | ph | 0.0001 |
-| skot | sk | 3141.69 |
+| Illuminance | Symbol | Value      |
+| ----------- | ------ | ---------- |
+| foot-candle | fc     | 0.09290304 |
+| lux         | lx     | 1          |
+| phot        | ph     | 0.0001     |
+| skot        | sk     | 3141.69    |
 
----
+``` yaml
 current:
   unit: Illuminance
   file: <./illuminance.txt>
     author: Iterami
     source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
     license: CC0-1.0
-...
+```

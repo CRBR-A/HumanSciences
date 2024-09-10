@@ -1,32 +1,31 @@
-| Speed | Symbol | Value |
-| --- | --- | --- |
-| _default |     | 'metres per second [m/s]' |
-| Bubnoff unit | B | 31556908800000 |
-| feet per hour | ft/h | 1 / 0.0254 / 12 * 3600 |
-| feet per minute | ft/min | 1 / 0.0254 / 12 * 60 |
-| feet per second | ft/s | 1 / 0.0254 / 12 |
-| furlongs per fortnight |     | 6012.8727971 |
-| inches per hour | in/h | 141732.36 |
-| inches per minute | in/min | 2362.206 |
-| inches per second | in/s | 1 / 0.0254 |
-| knots |     | 1.94384 |
-| mach | M | 1 / 340.29 |
-| metres per hour | m/h | 3600 |
-| metres per minute | m/min | 60 |
-| metres per second | m/s | 1 |
-| miles per hour | mph | 1 / 0.0254 / 63360 * 3600 |
-| miles per minute | mi/min | 1 / 0.0254 / 63360 * 60 |
-| miles per second | mi/s | 1 / 0.0254 / 63360 |
-| speed of light | c | 1 / 299792458 |
-| yards per hour | yd/h | 1 / 0.0254 / 36 * 3600 |
-| yards per minute | yd/min | 1 / 0.0254 / 36 * 60 |
-| yards per second | yd/s | 1 / 0.0254 / 36 |
+| Speed                  | Symbol | Value                      |
+| ---------------------- | ------ | -------------------------- |
+| Bubnoff unit           | B      | 31556908800000             |
+| feet per hour          | ft/h   | 1 / 0.0254 / 12 \* 3600    |
+| feet per minute        | ft/min | 1 / 0.0254 / 12 \* 60      |
+| feet per second        | ft/s   | 1 / 0.0254 / 12            |
+| furlongs per fortnight |        | 6012.8727971               |
+| inches per hour        | in/h   | 141732.36                  |
+| inches per minute      | in/min | 2362.206                   |
+| inches per second      | in/s   | 1 / 0.0254                 |
+| knots                  |        | 1.94384                    |
+| mach                   | M      | 1 / 340.29                 |
+| metres per hour        | m/h    | 3600                       |
+| metres per minute      | m/min  | 60                         |
+| metres per second      | m/s    | 1                          |
+| miles per hour         | mph    | 1 / 0.0254 / 63360 \* 3600 |
+| miles per minute       | mi/min | 1 / 0.0254 / 63360 \* 60   |
+| miles per second       | mi/s   | 1 / 0.0254 / 63360         |
+| speed of light         | c      | 1 / 299792458              |
+| yards per hour         | yd/h   | 1 / 0.0254 / 36 \* 3600    |
+| yards per minute       | yd/min | 1 / 0.0254 / 36 \* 60      |
+| yards per second       | yd/s   | 1 / 0.0254 / 36            |
 
----
+``` yaml
 current:
   unit: Speed
   file: <./speed.txt>
     author: Iterami
     source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
     license: CC0-1.0
-...
+```

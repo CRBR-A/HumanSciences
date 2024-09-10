@@ -1,0 +1,65 @@
+| Temperature         | Symbol | Value                          |
+| ------------------- | ------ | ------------------------------ |
+| Amonton             |        | value \* 0.215 + 51.5          |
+| Barnsdorf           |        | value \* 0.2625 + 11 / 3       |
+| Beaumuir            |        | value / 1.23862                |
+| Bénart              |        | value \* 1.25532 + 0.5         |
+| Bergen              |        | value \* 1.68 + 6              |
+| Brisson             |        | value / 1.18519                |
+| Celsius             | °C     | 1                              |
+| Cimento             |        | value \* 0.665 + 13.5          |
+| Cruquius            |        | value \* 4.39811 + 1070.19     |
+| Dalencé             |        | value \* (2 / 3) - 10          |
+| Daniell             |        | value \* 0.247527 - 3.30028    |
+| De la Hire          |        | value \* 0.988302 + 20.5698    |
+| De la Ville         |        | value \* 1.77402 + 25.0581     |
+| Delisle             | °D     | (100 - value) \* 1.5           |
+| De Luc              |        | value / 1.26984                |
+| De Lyon             |        | value / 1.01587                |
+| de Revillas         |        | value / -0.673609334 + 148.454 |
+| de Suede            |        | value \* 0.995999 + 0.040011   |
+| de Villeneuve       |        | value \* (4 / 3)               |
+| Du Crest            |        | value \* 1.17118 - 17.0992     |
+| Edinburgh           |        | value \* 0.386714 + 8.25       |
+| electron volts      |        | value / 11604.9669 + 0.0235383 |
+| Fahrenheit          | °F     | value \* 1.8 + 32              |
+| Florentine Magnum   |        | value \* 2.71186 - 25.7627     |
+| Fowler              |        | value \* 2.81109 - 34          |
+| Frick               |        | value \* 2.259 - 33.3          |
+| Gas Mark            | G      | (value - 121) / 14             |
+| Goubert             |        | value \* 0.9                   |
+| Hales               |        | value \* 1.5                   |
+| Hauksbee            |        | value / -0.4 + 78              |
+| Jacobs-Holborn      |        | value \* 7.1 + 337             |
+| Kelvin              | K      | value + 273.15                 |
+| La Court            |        | value \* 0.759375 + 15         |
+| Lambert             |        | value \* 3.7 + 1000            |
+| Lange               |        | value \* 0.481875 + (20.6 / 3) |
+| Leiden              |        | value + 253                    |
+| Ludolf              |        | value \* 1.60313 + 32          |
+| Mariotte            |        | value \* 2.57069 + 24.4216     |
+| Miles               |        | value \* 1.8                   |
+| Murray              |        | value \* 2.48 + 99             |
+| Newton              | °N     | value \* 0.33                  |
+| Oertel              |        | value \* 0.9 + 32              |
+| Paris               |        | value \* 1.71429 + 28          |
+| Poleni              |        | value \* 0.151765 + 47.3529    |
+| Rankine             | °Ra    | (value + 273.15) \* 1.8        |
+| Réaumur             | °Ré    | value / 1.25                   |
+| Richter             |        | value \* 0.82125 + 18          |
+| Rinaldini           |        | value \* 0.12                  |
+| Rømer               | °Rø    | value \* 21 / 40 + 7.5         |
+| Sagredo             |        | value \* 4.73934 + 100         |
+| Sulzer              |        | value \* 1.57075 - 1.07547     |
+| Urist               | °U     | value \* 1.8 + 10000           |
+| Wedgwood (modern)   |        | value / 24.8571954 - 10.8218   |
+| Wedgwood (original) |        | value / 72.2219815 - 8.04188   |
+
+``` yaml
+current:
+  unit: Temperature
+  file: <./temperature.txt>
+    author: Iterami
+    source: <https://github.com/iterami/UnitConverter.htm/blob/gh-pages/repo.js>
+    license: CC0-1.0
+```
