@@ -1,0 +1,2 @@
+url: https://github.com/Open-Science-Training-Handbook/Open-Science-Training-Handbook_EN
+license: CC0-1.0
